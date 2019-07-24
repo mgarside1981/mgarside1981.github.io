@@ -1,0 +1,41 @@
+Question 1: Hello,
+I'm new to search engines, and there are a lot of concepts I'm not educated on. To make my onboarding smoother, it'd help if you could provide me with some definitions of the following concepts:
+* Records
+* Indexing
+I'm also struggling with understanding what types of metrics would be useful to include in the "Custom Ranking."
+Cheers, George
+
+Hi George,
+Thank you for your questions.  
+A record is collection of data that represents an object.  In practical terms this could be something that you are selling (name, description, price, picture, etc.), a contact (name, address, phone number, etc.), or an article (name, instructions, error code, etc.).  The system can dynamically store the information so all you have to do is collect the data in a single source you can feed in to the system.
+Indexing is creating, updating, or removing records from a collection (or updating the business rules for how to search or present results from a query).  This could be as easy as loading a file or running an automation to update the Indices (or Index), or as complex as modifying how the information can be manipulated or the Indicies are managed (copying, deleting, etc.).  The Indexing is critical to make sure that the information a user is looking for is presented in the best way possible.
+Custom ranking allows you to define how a set of matching search results are presented to an end user and are based on values from the record.  This could be used to order products returned by rating, or popularity, or recommendation by your company.  It ensures that after the user performs their search they are always able to see the most relevant results first.  With products we would want to present the popular, best rated, or recommended items first to give the end user confidence that they are getting the best solution.  With help articles we would want to present the most used solutions, best rated, or most frequent articles to have the best chance of answering the users questions.
+
+I hope this helps.  Please tell me if I can help provide any additional information or answer any other questions you may have.
+Regards,
+Micah
+Question 2: Hello,
+Sorry to give you the kind of feedback that I know you do not want to hear, but I really hate the new dashboard design. Clearing and deleting indexes are now several clicks away. I am needing to use these features while iterating, so this is inconvenient.
+Regards, Matt
+Hi Matt,
+I am sorry to hear that clearing and deleting the Indices from the dashboard is something you hate.  Based on my experience, we would have to visit the Indices page, select the Indices, select Manage Index, and then select the operation (clear or delete).  Can you confirm this is the experience you hate?  I want to be sure that I understand how you are interacting with the system, so I can have the chance to make your life easier or to submit an enhancement for the product.
+Can you tell me what you are doing that has you clearing or deleting Indices often?  I understand you are iterating, but I want to have a detailed understanding of your scenario to give you the best answer.  Since this sounds like something occurring frequently we may have a chance to work together to find an easier way to get your work done.  I look forward to hearing more details about what you are trying to accomplish and working with you to decrease the amount of manual effort you are doing (saving time and frustrations.
+Thank you for your time.
+Regards,
+Micah
+
+Question 3: Hi,
+I'm looking to integrate Algolia in my website. Will this be a lot of development work for me? What's the high level process look like?
+Regards, Leo
+Hi Leo,
+Thank you for your question.  The short answer is that Algolia has a great collection of tools and features that make enabling it in your website to meet your expectations of ease of administration and power.  Here is the guide that I use as my touchstone if you want to dive in to greater detail:
+https://www.algolia.com/doc/guides/getting-started/quick-start/
+If you are looking for a minimum of development effort you can use the Algolia Dashboard and InstantSearch to quickly deploy the system to your existing web pages.  If you need additional power and flexibility there are additional options, but they may require additional development resources to construct and deploy the custom components you define.
+There are three major steps to deploy the solution: 
+* collect and load the data
+* configure the Indices
+* construct and deploy the GUI
+The information can be loaded from JSON, CSV, a database, or via a program.   The Indices can be quickly configured from the dashboard, where you can define how the user will be able to view and manipulate the data as they are searching it.  Lastly building the user interface to the data can be as easy or as powerful as you need. InstantSearch delivers a large selection of configurable widgets that can be combined to create a great user experience with the data with a minimum of development or the system can be heavily customized to deliver the capability your company needs to craft their vision for the customer experience.
+Please tell me if I can provide any additional detail or examples for you.  Thanks you for your time.
+Regards,
+Micah
